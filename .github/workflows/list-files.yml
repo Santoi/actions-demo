@@ -10,4 +10,5 @@ jobs:
     name: List Files
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - run: ls -lasth
