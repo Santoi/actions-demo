@@ -1,9 +1,7 @@
 name: List files
 
 on: 
-  issues:
-    types:
-      - opened
+  issues
 
 jobs:
   list_files:
