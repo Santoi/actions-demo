@@ -1,0 +1,13 @@
+name: List files
+
+on: 
+  issues:
+    types:
+      - opened
+
+jobs:
+  list_files:
+    name: List Files
+    runs-on: ubuntu-latest
+    steps:
+      - run: ls -lasth
